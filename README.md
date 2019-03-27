@@ -10,5 +10,5 @@
   * Landline numbers must have 09 prefixed
   * The `contact_id` field in the address and phone tables must match to an existing record with the same value in the `id` field of the contact table
   * You can use any language for any code that is written. Preferably use PHP 7.0 where possible.
-  * **MySQL 5.7 is to be used
+  * **MySQL 5.7 is to be used**
   
