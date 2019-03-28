@@ -282,7 +282,7 @@ if(isset($_POST["submit"]) && isset($_FILES["fileToUpload"])) {
               <td>".$contact_row["title"]."</td>
               <td>".urldecode($contact_row["first_name"])."</td>
               <td>".urldecode($contact_row["last_name"])."</td>
-              <td>".date('m/d/y',strtotime($contact_row['date_of_birth']))."</td>
+              <td>".date('d/m/Y',strtotime($contact_row['date_of_birth']))."</td>
               <td>".urldecode($contact_row["street1"])."</td>
               <td>".urldecode($contact_row["street2"])."</td>
               <td>".urldecode($contact_row["suburb"])."</td>
