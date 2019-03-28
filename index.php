@@ -1,4 +1,4 @@
-<!--****************************
+﻿<!--****************************
 
 Name: Lionell Carlo Paquit
 Project: EzyVet Practical Test
@@ -267,11 +267,11 @@ if(isset($_POST["submit"]) && isset($_FILES["fileToUpload"])) {
               $home_num = $phone_row["content"];
             if($phone_row["type"] == "Fax")
               $fax_num = $phone_row["content"];
-            if($phone_row["type"] == "Home")
+            if($phone_row["type"] == "Work")
               $work_num = $phone_row["content"];
-            if($phone_row["type"] == "Home")
+            if($phone_row["type"] == "Mobile")
               $mobile_num = $phone_row["content"];
-            if($phone_row["type"] == "Home")
+            if($phone_row["type"] == "Other")
               $other_num = $phone_row["content"];
           }
         }
